@@ -1,11 +1,11 @@
-// **** SOLID Principles of OOPS ****
+## SOLID Principles of OOPS
 
 Advantages:
-1. Avoid duplicate code
-2. Easy to maintain
-3. Easy to understand
-4. Flexible software
-5. Reduce complexity
+- Avoid duplicate code
+- Easy to maintain
+- Easy to understand
+- Flexible software
+- Reduce complexity
 
 ## Single Responsibility Principle
 - A class should have only 1 reason to change

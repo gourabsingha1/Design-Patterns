@@ -1,6 +1,4 @@
 ## SOLID Principles of OOPS
-
-Advantages:
 - Avoid duplicate code
 - Easy to maintain
 - Easy to understand

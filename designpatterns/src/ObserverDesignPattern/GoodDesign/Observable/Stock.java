@@ -5,6 +5,7 @@ import ObserverDesignPattern.GoodDesign.Observer.Observer;
 import java.util.ArrayList;
 import java.util.List;
 
+// Concrete Subject (Stock) Class
 public class Stock implements StockSubject {
     private String name;
     private double price;

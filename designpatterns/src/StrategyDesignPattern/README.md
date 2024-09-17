@@ -24,4 +24,19 @@
 
 
 ## When to use
-- When all the child share same functionalities
+- You want to adhere to Open/Closed Principle: When all the child share same functionalities
+- Behavior needs to change dynamically: The object should be able to change its behavior
+  based on user input or the current state.
+- You want to avoid complex conditionals: The pattern helps avoid 
+  large if-else or switch statements by using polymorphism.
+- You have multiple ways to perform a task: The class has different ways to accomplish an operation
+  (like sorting, discount calculations, or payment methods),
+  and you want to select one of these ways at runtime.
+
+
+## Use cases
+- Payment Processing Systems: Select between different payment processors at checkout.
+- Sorting Algorithms: Use different sorting algorithms based on the size or nature of the data set.
+- Data Compression Algorithms: Application needs to support multiple compression algorithms (e.g., ZIP, RAR, TAR)
+- Pathfinding Algorithms: A navigation system that switches between different algorithms
+  (e.g., *A (A-star)**, Dijkstra's Algorithm, or Greedy Search) based on the terrain type.

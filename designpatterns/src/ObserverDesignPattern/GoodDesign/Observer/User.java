@@ -1,5 +1,6 @@
 package ObserverDesignPattern.GoodDesign.Observer;
 
+// Concrete Observer Class
 public class User implements Observer {
     private String name;
 

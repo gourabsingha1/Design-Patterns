@@ -4,6 +4,6 @@ public class DatabaseInvoiceDao implements InvoiceDao {
 
     @Override
     public void save(Invoice invoice) {
-        // Save to db
+        System.out.println("Saving invoice to db");
     }
 }

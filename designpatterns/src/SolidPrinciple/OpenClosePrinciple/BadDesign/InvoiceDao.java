@@ -8,10 +8,10 @@ public class InvoiceDao {
     }
 
     public void saveToDB() {
-        // Save date into db
+        System.out.println("Saving invoice to db");
     }
 
     public void saveToFile(String filename) {
-        // Save invoice in the file with given filename
+        System.out.println("Saving invoice to file with name: " + filename);
     }
 }

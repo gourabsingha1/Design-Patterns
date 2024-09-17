@@ -8,6 +8,6 @@ public class InvoiceDao {
     }
 
     public void saveToDB() {
-        // Save date into db
+        System.out.println("Saving invoice to db");
     }
 }

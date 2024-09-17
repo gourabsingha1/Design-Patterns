@@ -11,7 +11,7 @@
 - The PayPalProcessor class throws an exception when the validateCardDetails method is called. 
 - This breaks the Liskov Substitution Principle,
   because a PaymentProcessor instance is supposed to validate card details
-- But the subclass (PayPal) doesn't follow the same contract.
+  but the subclass (PayPal) doesn't follow the same contract.
 - If you replace PaymentProcessor with PayPalProcessor,
   the program will crash if card validation is attempted.
 

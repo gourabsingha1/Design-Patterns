@@ -5,7 +5,7 @@
   who want to get notified when the stock price is updated.
 
 
-## Bad Design (Violating Observer Pattern)
+## Bad Design (Violating Observer Design Pattern)
 - In this design, the Stock class has to explicitly notify each observer.
 - If we need to add or remove observers or change the way notifications are sent,
   we will need to modify the Stock class, violating the open/closed principle.

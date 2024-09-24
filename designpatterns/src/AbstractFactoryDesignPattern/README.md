@@ -29,6 +29,12 @@
   and the client doesn't need to be changed to support new themes.
 
 
+## How It Works:
+- The client requests the creation of a family of objects (button, checkbox) from the abstract factory.
+- The appropriate concrete factory (Windows, Mac, etc.) is selected,
+  and it creates the corresponding concrete objects.
+
+
 ## When to Use
 - When you need to create Factory of Factories
 - The system must be independent of how its objects are created, composed, or represented.

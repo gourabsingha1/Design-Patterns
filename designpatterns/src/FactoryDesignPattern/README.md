@@ -18,6 +18,13 @@
 - This approach abstracts the instantiation process from the client.
 
 
+## How It Works:
+- The Vehicle interface defines the common method drive().
+- Concrete implementations (Car, Bike, Truck) provide specific behavior for the drive() method.
+- The VehicleFactory class has a static method getVehicle() that returns the appropriate
+  Vehicle instance based on a string parameter.
+
+
 ## When to use
 - Dynamic Object Creation: When the exact type of object to be created is not known
   until runtime and can vary based on user input or other factors.

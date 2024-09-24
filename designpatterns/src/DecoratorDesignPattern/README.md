@@ -22,6 +22,12 @@
 - Concrete decorators such as CheeseDecorator, OliveDecorator, and MushroomDecorator
   extend the ToppingDecorator class. Each decorator adds a topping’s cost
   and description by wrapping an existing pizza object.
+
+
+## How it Works:
+- A pizza (like MargheritaPizza) is created, and then toppings are added
+  by wrapping the pizza object in decorators. For example, to add cheese and olives,
+  the pizza is first wrapped in CheeseDecorator and then wrapped in OliveDecorator.
 - This design allows for flexible, dynamic combinations of toppings at runtime,
   and you only need to create a new decorator class when introducing a new topping,
   not a new subclass for every possible combination.
